@@ -5,12 +5,12 @@ int main()
 {
       
     string Name = "Tawfiq Abu Rumman";
-    string Age = "24 years";
+    int Age = 24 ;
     string City = "AL-SALT";
     string Country = "JORDAN";
     float Monthly_salary = 500;
     char Gender = 'M';
-    bool Married = false;
+    bool isMarried = false;
 
   
     cout << "*********************************\n";
