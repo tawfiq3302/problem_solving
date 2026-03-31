@@ -26,22 +26,22 @@ int main()
     getline(cin, Country);
     cout << "Please Enter Your Monthly_salary:\n";
        cin >> Monthly_salary;
-    cout << "Please Enter Your Gender:\n";
+    cout << "Please Enter Your Gender: M/F\n";
        cin >> Gender;
-    cout << "please enter \"1 if you Married And 0 If you single\"  "<<endl;
+    cout << "Are  you married? 1/0  "<<endl;
        cin >> isMarried;
 
 
 
     cout << "*********************************\n";
-    cout << "Name:" << Name << endl;
-    cout << "Age:" << Age << endl;
-    cout << "City:" << City << endl;
-    cout << "Country:" << Country << endl;
-    cout << "Monthly_salary:" << Monthly_salary << endl;
-    cout << "yearly_salary:" << Monthly_salary * 12 << endl;
-    cout << "Gender:" << Gender << endl;
-    cout << "married:" << isMarried << endl;
+    cout << "Name: " << Name << endl;
+    cout << "Age: " << Age << endl;
+    cout << "City: " << City << endl;
+    cout << "Country: " << Country << endl;
+    cout << "Monthly_salary: " << Monthly_salary << endl;
+    cout << "yearly_salary: " << Monthly_salary * 12 << endl;
+    cout << "Gender: " << Gender << endl;
+    cout << "married: " << isMarried << endl;
     cout << "*********************************\n";
 
 
