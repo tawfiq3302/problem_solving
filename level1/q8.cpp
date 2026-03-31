@@ -1,3 +1,4 @@
+// Question: Input and display full personal information
 
 #include <iostream>
 #include <string>
