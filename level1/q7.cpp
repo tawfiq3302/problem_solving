@@ -1,3 +1,6 @@
+// Level: 1
+// Question: Store and print personal information using variables
+
 
 #include <iostream>
 using namespace std;
