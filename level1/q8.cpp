@@ -7,7 +7,7 @@ int main()
 {
   
     string Name ;
-    int Age ;
+    short int Age ;
     string City ;
     string Country ;
     float Monthly_salary;           
