@@ -8,7 +8,7 @@ int main()
 {
       
     string Name = "Tawfiq Abu Rumman";
-    int Age = 24 ;
+    short int Age = 24 ;
     string City = "AL-SALT";
     string Country = "JORDAN";
     float Monthly_salary = 500;
