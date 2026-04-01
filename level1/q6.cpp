@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int number1 = 20, number2 = 30, number3 = 10;
+   short int number1 = 20, number2 = 30, number3 = 10;
 
     cout << number1 << "+\n";
     cout << number2 << "+\n";
