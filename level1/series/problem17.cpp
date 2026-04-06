@@ -14,6 +14,6 @@ int main()
     cout << "please enter the height of triangle:\n";
     cin >> height;
     area_of_triangle = .5 * base_length * height;
-    cout << "this is the area of triangle " << area_of_triangle << endl;;
+    cout << "this is the area of triangle " << area_of_triangle << endl;
     return 0;
 }
