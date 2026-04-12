@@ -13,8 +13,8 @@ int main()
     cout << "please enter a number\n";
     cin >> number;
    
-    cout << "number^2 = " << number * number<<endl;
-    cout << "number^3 = " << number * number * number<<endl;
-    cout << "number^4 = " << number * number * number * number<<endl;
+    cout << "number^2 = " << pow(number,2) <<endl;
+    cout << "number^3 = " << pow(number,3)<<endl;
+    cout << "number^4 = " << pow(number,4)<<endl;
     return 0;
 }
