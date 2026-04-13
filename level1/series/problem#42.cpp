@@ -20,11 +20,11 @@ int main()
     cout << "please enter thre number of secondes \n";
     cin >> seconde;
 
-    day = day * 24 * 60 * 60;
-    hour = hour * 60 * 60;
+    day = day * 24 * pow(60,2) ;
+    hour = hour * pow(60,2);
     minute = minute * 60;
     total_seconde = day + hour + minute + seconde;
-    cout << "the total of seconde is " << total_seconde;
+    cout << "the total of seconde is " << round(total_seconde);
 
 
 
