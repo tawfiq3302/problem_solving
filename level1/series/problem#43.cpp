@@ -11,11 +11,11 @@ int main()
     cout << "this program calculate the number of day,hour,minute and seconde after enter the total second\n";
     cout << "please enter the number of second \n";
     cin >> seconde;
-    day = seconde / (24 * 60 * 60);
-    seconde = seconde - (day * 24 * 60 * 60);
+    day = seconde / (24 * pow(60,2));
+    seconde = seconde - (day * 24 * pow(60,2));
 
-    hour = seconde / (60 * 60);
-    seconde = seconde - (hour * 60 * 60);
+    hour = seconde / (pow(60,2));
+    seconde = seconde - (hour * pow(60,2));
 
     minute = seconde / 60;
     seconde = seconde - (minute * 60);
