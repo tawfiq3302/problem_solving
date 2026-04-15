@@ -1,24 +1,21 @@
 // Question: Create a program that stores and displays personal information using struct and enum.
 // Note: enum values will print as numbers (will improve later)
 
-
 #include <iostream>
 #include <string>
 #include<cmath>
 using namespace std;
 
 
-enum ismarried { single, married };
-enum gender { male, female };
-enum favorite_color{red,blue,black,green};
-
+enum enmarried { single, married };
+enum engender { male, female };
+enum enfavorite_color{red,blue,black,green};
 
 struct staddress {
     string street_name;
     string building_number;
 
 };
-
 struct stcontact_info {
     string number_phone;
     string email_address;
@@ -31,10 +28,10 @@ struct personal_information {
     string country;
     short age;
     float monthly_salary;
-    gender mygender;
-    ismarried status;
+    engender gender;
+    enmarried status;
     stcontact_info contact;
-    favorite_color mycolor;
+    enfavorite_color color;
  };
 
 
@@ -51,9 +48,10 @@ int main()
     personal1.contact.number_phone = "0777524097";
     personal1.contact.address.building_number = "17";
     personal1.contact.address.street_name= "street al romy";
-    personal1.mycolor = favorite_color::blue;
-    personal1.mygender = gender::male;
-    personal1.status = ismarried::single;
+
+    personal1.color = enfavorite_color::blue;
+    personal1.gender = engender::male;
+    personal1.status = enmarried::single;
 
 
 
@@ -61,16 +59,16 @@ int main()
     cout << "***************************\n";
     cout <<"name: " << personal1.name << endl;
     cout <<"age: " << personal1.age << endl;
-    cout << "favorite color: " << personal1.mycolor << endl;
+    cout << "favorite color: " << personal1.color << endl;
     cout << "city: " << personal1.city << endl;
     cout << "country: " << personal1.country << endl;
-    cout <<"gender: " << personal1.mygender << endl;
+    cout <<"gender: " << personal1.gender << endl;
     cout <<"is married: " << personal1.status << endl;
     cout << "email: " << personal1.contact.email_address << endl;
     cout <<"number phone: " << personal1.contact.number_phone << endl;
     cout <<"building number: " << personal1.contact.address.building_number << endl;
     cout <<"street name: " << personal1.contact.address.street_name << endl;
-
+    cout << "***************************\n";
 
 
 
