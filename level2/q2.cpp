@@ -11,11 +11,14 @@ using namespace std;
 enum ismarried { single, married };
 enum gender { male, female };
 enum favorite_color{red,blue,black,green};
+
+
 struct staddress {
     string street_name;
     string building_number;
 
 };
+
 struct stcontact_info {
     string number_phone;
     string email_address;
@@ -28,8 +31,10 @@ struct personal_information {
     string country;
     short age;
     float monthly_salary;
-   
+    gender mygender;
+    ismarried status;
     stcontact_info contact;
+    favorite_color mycolor;
  };
 
 
@@ -46,23 +51,21 @@ int main()
     personal1.contact.number_phone = "0777524097";
     personal1.contact.address.building_number = "17";
     personal1.contact.address.street_name= "street al romy";
-    gender mygender;
-    mygender = gender::male;
-    
-    ismarried status;
-    status = ismarried::single;
-    
-    favorite_color mycolor;
-    mycolor = favorite_color::blue;
+    personal1.mycolor = favorite_color::blue;
+    personal1.mygender = gender::male;
+    personal1.status = ismarried::single;
+
+
+
 
     cout << "***************************\n";
     cout <<"name: " << personal1.name << endl;
     cout <<"age: " << personal1.age << endl;
-    cout << "favorite color: " << mycolor << endl;
+    cout << "favorite color: " << personal1.mycolor << endl;
     cout << "city: " << personal1.city << endl;
     cout << "country: " << personal1.country << endl;
-    cout <<"gender: " << mygender << endl;
-    cout <<"is married: " << status << endl;
+    cout <<"gender: " << personal1.mygender << endl;
+    cout <<"is married: " << personal1.status << endl;
     cout << "email: " << personal1.contact.email_address << endl;
     cout <<"number phone: " << personal1.contact.number_phone << endl;
     cout <<"building number: " << personal1.contact.address.building_number << endl;
