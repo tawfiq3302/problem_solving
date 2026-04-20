@@ -9,7 +9,7 @@ using namespace std;
 
 void PrintMyName(string name)
 {
-    cout << name;
+    cout << name << endl;
 
 }
 
@@ -18,22 +18,7 @@ int main()
 {
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    PrintMyName("Tawfiq Abu Rumman\n");
+    PrintMyName("Tawfiq Abu Rumman");
 
 
     return 0;
