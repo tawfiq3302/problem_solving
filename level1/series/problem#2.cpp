@@ -1,4 +1,4 @@
-// Question: Create a function that takes a name as a parameter and prints it.
+// Question: write a program toask theuser to enter his/her name and print it on screen
 
 
 
