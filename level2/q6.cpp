@@ -2,7 +2,7 @@
 //then read and print the data using functions.
 
  
-#include <iostream>
+#include <iostream> 
 #include <string>
 #include<cmath>
 using namespace std;
