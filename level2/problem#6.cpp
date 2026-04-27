@@ -1,7 +1,7 @@
 // Question: Write a program using struct to store personal information including contact details, 
 //then read and print the data using functions.
 
-
+ 
 #include <iostream>
 #include <string>
 #include<cmath>
