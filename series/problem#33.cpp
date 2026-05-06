@@ -16,7 +16,7 @@ void CheckGradeAndPrint(short grade)
         cout << "there is no mark greater than 100 \n";
     }
 
-    else if (grade >= 90 && grade <= 100)
+    else if (grade >= 90 )
     {
         cout << "A";
     }
