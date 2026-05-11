@@ -1,6 +1,6 @@
 // Question: Write a function to calculate the area of a rectangle using two sides and return the result.
 
-
+ 
 #include <iostream>
 #include <string>
 #include<cmath>
