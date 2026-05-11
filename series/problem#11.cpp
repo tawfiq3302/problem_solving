@@ -2,7 +2,7 @@
 //calculate their average, and print "Pass" or "Fail
 
 #include <iostream>
-using namespace std;
+using namespace std; 
 
 void ReadMark(float mark[3])
 {
