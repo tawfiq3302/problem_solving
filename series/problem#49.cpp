@@ -1,7 +1,7 @@
 //Write a program to read the ATM PIN code from the user, then check if PIN Code = 1234, then show the balance to user,
 //otherwise print "Wong PIN" and ask the user to enter the PIN again.  
 //Assume User Balance is 7500.
-
+ 
 
 #include <iostream>
 #include <string>
