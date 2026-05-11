@@ -1,7 +1,7 @@
 //question=>Write a program to read a TotalBill and CashPaid and calculate the remainder to be paid back.
 
 
-
+ 
 #include <iostream>
 #include <string>
 using namespace std;
