@@ -26,10 +26,9 @@ void ShowWeekDayMenu()
 
 enWeekDay ReadWeekDay()
 {
-    enWeekDay weekday;
+    
     short we;
     cin >> we;
-   
     return (enWeekDay)we;
 }
 
@@ -69,10 +68,11 @@ string GetNameWeek(enWeekDay Weekday)
 int main()
 { 
    
-
     ShowWeekDayMenu();
     cout << "Today is " << GetNameWeek(ReadWeekDay());
     
     return 0;
 
 }
+
+
